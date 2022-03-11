@@ -4,7 +4,7 @@
 			<label for="title">{{ title }}</label>
 		</slot>
 		<!-- <input ref="input" :type="typeName" :placeholder="placeholder" :value="value" @input="onInput($event.target.value)" @keydown.enter="onEnter" /> -->
-		<a-input-search placeholder="input search text" style="width: 200px" @search="onSearch" />
+		<a-input-search placeholder="input search text" style="width: 200px" class="search-box-primary" />
 		<slot name="button"></slot>
 	</div>
 </template>

@@ -21,7 +21,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { InputBox },
-  template: `<a-input-search placeholder="input search text" style="width: 200px" @search="onSearch" />`,
+  template: `<a-input-search placeholder="input search text" style="width: 200px" class="search-box-primary" />`,
   data() {
     return { text: '', name: 'InputBox' }
   }
