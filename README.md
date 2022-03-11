@@ -67,13 +67,8 @@ There are the following components in this sample.
 |Button|``commandbutton.vue``|The component that shows a button|
 |Input|``inputbox.vue``|The component that shows a item name and input box.|
 |Label|``labelgroup.vue``|The component that shows a item name and data.|
-|Message|``message.vue``|The component that shows messages.|
-|Modal|``modal.vue``|The component that shows a modal dialog.|
-|Navigation Bar|``navbar.vue``|The component that shows a navigation bar.|
-|Pagenation|``paginate.vue``|The component that shows a pagenation.|
 |Select Box|``selectbox.vue``|The component that shows a select box.|
 
-The pagination component refer to [this project](https://github.com/lokyoung/vuejs-paginate/blob/master/src/components/Paginate.vue).
 
 ## Libraries
 This sample uses the following library.
