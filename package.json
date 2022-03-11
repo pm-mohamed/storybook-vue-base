@@ -9,6 +9,7 @@
     "storybook": "start-storybook -p 9009 --no-manager-cache"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.8",
     "babel-preset-vue": "^2.0.2",
     "semantic-ui-css": "^2.4.1",
     "vue": "^2.6.12",

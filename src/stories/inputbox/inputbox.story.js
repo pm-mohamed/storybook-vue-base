@@ -21,7 +21,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { InputBox },
-  template: `<InputBox v-model="text" :title="title" :isValide="isValide" />`,
+  template: `<a-input-search placeholder="input search text" style="width: 200px" @search="onSearch" />`,
   data() {
     return { text: '', name: 'InputBox' }
   }
@@ -29,6 +29,6 @@ const Template = (args, { argTypes }) => ({
 
 export const Title = Template.bind({});
 Title.args = {
-  title: 'タイトル',
+  title: 'Search Input Primary',
   isValide: false,
 };
