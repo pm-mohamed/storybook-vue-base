@@ -27,7 +27,7 @@ const Template = (args, { argTypes }) => ({
 
 export const Normal = Template.bind({});
 Normal.args = {
-  name: 'ボタン',
+  name: 'Primary Button',
   className: 'primary',
   useDiv: false,
   isLoading: false,

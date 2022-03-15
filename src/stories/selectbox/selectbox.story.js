@@ -29,6 +29,6 @@ const Template = (args, { argTypes }) => ({
 
 export const Title = Template.bind({});
 Title.args = {
-  title: 'タイトル',
+  title: 'Primary Label',
   options: [{ id: 1, name: 'select1' }, { id: 2, name: 'select2' }]
 };

@@ -26,6 +26,6 @@ const Template = (args, { argTypes }) => ({
 
 export const Title = Template.bind({});
 Title.args = {
-  title: 'タイトル',
-  name: 'データ',
+  title: 'Primary Label',
+  name: 'Primary Label',
 };
